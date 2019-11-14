@@ -77,5 +77,5 @@ Backend Part ->
 						}
 
 4- Deployed the Backend Code on Heroku using Heroku-CLI
-	link- "https://arcane-brook-03009.herokuapp.com"
+	link- "https://arcane-brook-03009.herokuapp.com/admin"
 
