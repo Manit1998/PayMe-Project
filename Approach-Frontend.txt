@@ -1,0 +1,11 @@
+Front-End Part Using React Native ->
+
+1- Created two Screens and their UI's
+	(a)- BlogsList.js
+	(b)- ViewBlog.js
+
+2- Used React Navigation to Navigate between the Screens
+
+3- Call the API's
+
+4- Added Delete Blog Button in ViewBlog.js using Delete API

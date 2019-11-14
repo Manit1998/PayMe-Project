@@ -1,0 +1,81 @@
+Backend Part ->
+
+1- Made a Model "Blog"
+2- Logic of the API's is implemented using OOP's and Exception Handling
+3- Created all the API's :
+
+   (a)- Create the Blog -
+
+		url- "https://arcane-brook-03009.herokuapp.com/rest/blog/create/"
+		Input Json Body- 
+						{
+							"title":"Travel",
+							"body":"Travel is the movement of people between distant geographical locations. Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, ship or other means, with or without luggage, and can be one way or round trip."
+						}
+
+		Output Json - 
+						{
+  						  "status": "ok",
+ 						  "result": "Blog Created Successfully"
+						}
+
+	(b)- Show the Title of Blogs -
+
+		url- "https://arcane-brook-03009.herokuapp.com/rest/blog/list_blog/"
+		Output Json -
+						{
+						    "status": "ok",
+						    "result": {
+						        "Titles": [
+						            "Hacking",
+						            "Coding",
+						            "Driving",
+						            "React Native",
+						            "Django",
+						            "Python",
+						            "Rest API",
+						            "Soap API",
+						            "Backend Development",
+						            "Front-End Development",
+						            "Machine Learning",
+						            "Deep Learning",
+						            "Neural Network",
+						            "Travel"
+						        ]
+						    }
+						}
+
+	(c)- Show Body of the Blog -
+
+		url- "https://arcane-brook-03009.herokuapp.com/rest/blog/blog_body/"
+		Input Json Body- 
+						{
+							"title":"React Native"
+						}
+
+		Output Json -
+						{
+				    		"status": "ok",
+				   			"result": 
+				   					{
+				        				"Body": "React Native is a JavaScript framework for writing real, natively rendering mobile applications for iOS and Android. ... React Native also exposes JavaScript interfaces for platform APIs, so your React Native apps can access platform features like the phone camera, or the user's location."
+				   					}
+						} 
+
+	(d)- Delete the Blog -
+
+		url- "https://arcane-brook-03009.herokuapp.com/rest/blog/delete/"
+		Input Json Body - 
+						{
+    						"title": "Travel"
+						}
+
+		Output Json -
+		 				{
+    					"status": "ok",
+					    "result": "Blog Deleted Successfully"
+						}
+
+4- Deployed the Backend Code on Heroku using Heroku-CLI
+	link- "https://arcane-brook-03009.herokuapp.com"
+
