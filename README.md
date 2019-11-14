@@ -9,8 +9,9 @@
 - Run FrontEnd Server on localhost -
 `npm start`
 
-POSTMAN Collection link for the Api Description  -
+- POSTMAN Collection link for the Api Description  -
+  Import the below link using POSTMAN Application
 https://www.getpostman.com/collections/e1a8af4dd9f6d9d719e7
 
-Deployed Heroku link -
+- Deployed Heroku link -
 https://arcane-brook-03009.herokuapp.com/admin/
